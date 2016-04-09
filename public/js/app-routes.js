@@ -21,5 +21,7 @@ angular.module('routerRoutes', ['ngRoute'])
 		})
 
 	$locationProvider.html5Mode(true)
+	// this gets rid of the ugly url with the hash in it, but still allows the history API to work
+	// (with the back buttons and stuff)
 
 })
